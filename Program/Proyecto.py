@@ -112,7 +112,7 @@ def bfs(nodes, maze, tupla, n):
                 if counter == n:
                     print("Expansion Limit Reached")
                     n_expansion_reached = True
-                    break
+                    return list(queue)
     show_alert("No se encontró solución.")
     return list(queue)
 #DFS

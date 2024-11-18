@@ -18,13 +18,10 @@ def crear_mapa():
         texto_mapa.config(state=tk.NORMAL)
         texto_mapa.delete("1.0", tk.END)
         
-        # Print column numbers with exact spacing
         texto_mapa.insert(tk.END, "#")
         for i in range(n):
             texto_mapa.insert(tk.END, f" {i}   ")
         texto_mapa.insert(tk.END, "\n")
-        
-        # Print maze with row numbers
         for i, fila in enumerate(mapa):
             texto_mapa.insert(tk.END, f"  {fila},#{i}\n")
             
@@ -40,7 +37,6 @@ def crear_mapa():
         texto_mapa.insert(tk.END, "⚠️ Error: Ingrese valores numéricos válidos.")
         texto_mapa.config(state=tk.DISABLED)
 
-# Función para iniciar la búsqueda
 def empezar_busqueda():
     texto_mapa.config(state=tk.NORMAL)
     texto_mapa.insert(tk.END, "\n🔍 Iniciando búsqueda...\n")
