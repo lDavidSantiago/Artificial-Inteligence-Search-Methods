@@ -2,7 +2,6 @@
 David Santiago Velasco Triana
 Cristian David Rivera Torres
 Jhojan Stiven Castaño Jejen
-William Alexander Franco
 """
 import random
 from TreeClass import TreeNode
