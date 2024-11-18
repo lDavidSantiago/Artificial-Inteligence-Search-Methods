@@ -25,6 +25,8 @@ Asegúrate de tener instalados los siguientes paquetes:
 - `matplotlib`
 - `networkx`
 - `pydot`
+## Tambien es necesario descargar Graphiz:
+  -Graphiz: https://graphviz.org/download/
   ## 👥 Colaboradores
 
 | Nombre                          | GitHub                                        |
